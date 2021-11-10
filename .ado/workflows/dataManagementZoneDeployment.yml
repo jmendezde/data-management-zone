@@ -20,7 +20,7 @@ pr:
       - .ado/workflows/dataManagementZoneDeployment.yml
 
 variables:
-  AZURE_RESOURCE_MANAGER_CONNECTION_NAME: "data-management-zone-service-connection" # Update to '{yourResourceManagerConnectionName}'
+  AZURE_RESOURCE_MANAGER_CONNECTION_NAME: "TEST-ESAAI" # Update to '{yourResourceManagerConnectionName}'
   AZURE_SUBSCRIPTION_ID: "599f9596-9d0a-4446-8c84-136f79916ba6"                     # Update to '{yourDataManagementZoneSubscriptionId}'
   AZURE_LOCATION: "northeurope"                                                     # Update to '{yourRegionName}'
 
