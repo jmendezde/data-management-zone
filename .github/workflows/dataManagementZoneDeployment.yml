@@ -17,7 +17,7 @@ on:
 env:
   AZURE_SUBSCRIPTION_ID: "599f9596-9d0a-4446-8c84-136f79916ba6" # Update to '{dataHubSubscriptionId}'
   AZURE_LOCATION: "northeurope"                                 # Update to '{regionName}'
-  AZURE_RESOURCE_MANAGER _CONNECTION_NAME: "sp_dmzdeployment"
+  AZURE_RESOURCE_MANAGER _CONNECTION_NAME: "TEST-ESAAI"
 jobs:
   validation:
     name: "Validation of IaC templates"
